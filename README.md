@@ -1,14 +1,18 @@
 # Personalized-Cancer-Diagnosis
 ## Business problem
 The objective of this project is to classify given genetic variations/mutations data based on evidence from text based literature.
+## Real-world/Business objectives and constraints.
+<br>No low-latency requirement.<br/>
+<br>Interpretability is important.<br/>
+<br>Errors can be very costly.<br/>
+<br>Probability of a data-point belonging to each class is needed.<br/>
 
 ## Dataset
 <br> Memorial Sloan Kettering Cancer Center (MSKCC) <br/>
 <br>Download training_variants.zip and training_text.zip from Kaggle.<br/>
 <br> Source: https://www.kaggle.com/c/msk-redefining-cancer-treatment/ <br/>
 
-Following are the fields in the dataset:
-
+### Following are the fields in the dataset:
 <br>ID : the id of the row used to link the mutation to the clinical evidence <br/>
 <br>Gene : the gene where this genetic mutation is located<br/>
 <br>Variation : the aminoacid change for this mutations<br/>
